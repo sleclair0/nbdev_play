@@ -8,25 +8,23 @@
 
 -->
 
-# Project name here
+# Project nbdev Play
 
-> Summary description here.
+> Testing 123.
 
 
-This file will become your README and also the index of your documentation.
+## We could go so far as making a module that is installable
 
-## Install
-
-`pip install your_project_name`
+`pip install dbdev Play`
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
+examples:
 <div class="codecell" markdown="1">
 <div class="input_area" markdown="1">
 
-```
-1+1
+```python
+say_hello("Jeremy")=="Hello Jeremy!"
 ```
 
 </div>

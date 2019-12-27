@@ -2,9 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"say_hello": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
 git_url = "https://github.com/sleclair0/nbdev_play/tree/master/"
 
