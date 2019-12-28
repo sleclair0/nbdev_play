@@ -16,18 +16,6 @@
 <div class="input_area" markdown="1">
 
 ```python
-from nbdev_play.core import *
-from nbdev.showdoc import *
-from fastcore import *
-```
-
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
 %load_ext autoreload
 %autoreload 2
 ```
@@ -38,6 +26,18 @@ from fastcore import *
     The autoreload extension is already loaded. To reload it, use:
       %reload_ext autoreload
     
+
+</div>
+
+</div>
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
+
+```python
+from nbdev_play import *
+from nbdev.showdoc import *
+from fastcore import *
+```
 
 </div>
 
@@ -64,47 +64,5 @@ say_hello('Steve')
 </div>
 
 </div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-show_doc(say_hello)
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-
-<h4 id="say_hello" class="doc_header"><code>say_hello</code><a href="https://github.com/sleclair0/nbdev_play/tree/master/nbdev_play/core.py#L6" class="source_link" style="float:right">[source]</a></h4>
-
-> <code>say_hello</code>(**`to`**)
-
-Say hello to somebody
-
-
-</div>
-
-</div>
 
 ## class HelloSayer
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-show_doc(HelloSayer.say)
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-
-<h4 id="HelloSayer.say" class="doc_header"><code>HelloSayer.say</code><a href="https://github.com/sleclair0/nbdev_play/tree/master/nbdev_play/core.py#L16" class="source_link" style="float:right">[source]</a></h4>
-
-> <code>HelloSayer.say</code>()
-
-Do the saying
-
-
-</div>
-
-</div>
