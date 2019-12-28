@@ -8,34 +8,28 @@
 
 -->
 
-# Project nbdev Play
+# Title
 
-> Testing 123.
+> summary
 
-
-## We could go so far as making a module that is installable
-
-`pip install dbdev Play`
-
-## How to use
-
-examples:
 <div class="codecell" markdown="1">
 <div class="input_area" markdown="1">
 
 ```python
-say_hello("Jeremy")=="Hello Jeremy!"
+from nbdev_play.core import *
+from nbdev.showdoc import *
 ```
 
 </div>
-<div class="output_area" markdown="1">
 
+</div>
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
 
-
-
-    2
-
-
+```python
+%load_ext autoreload
+%autoreload 2
+```
 
 </div>
 
