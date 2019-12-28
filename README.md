@@ -8,9 +8,9 @@
 
 -->
 
-# Title
+# nbdev Playground
 
-> summary
+> a class and a function
 
 <div class="codecell" markdown="1">
 <div class="input_area" markdown="1">
@@ -29,6 +29,18 @@ from nbdev.showdoc import *
 ```python
 %load_ext autoreload
 %autoreload 2
+```
+
+</div>
+
+</div>
+
+## function: 
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
+
+```python
+show_doc(HelloSayer.say)
 ```
 
 </div>
